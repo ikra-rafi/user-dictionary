@@ -1,0 +1,10 @@
+.header {
+    padding: 30px 0;
+    font-family: "Trebuchet MS";
+    color: #ffffff;
+    background-color: #797a7e;
+    width: 100%;
+    text-align: center;
+    border-bottom: 5px solid #d8d3cd;
+    margin-bottom: 10px;
+}
