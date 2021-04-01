@@ -3,10 +3,12 @@ import "./style.css";
 
 function Header() {
     return (
-        <div className="header">
-            <h1>Employee Directory</h1>
-            <p>Click on each heading to filter or use the search box to narrow your results</p>
-        </div>
+        <section className="hero is-primary is-small">
+        <div className="hero-body">
+        <div className="container">
+            <h1 className="title">Employee Directory</h1>
+            <h2 className="subtitle">Click on each heading to filter or use the search box to narrow your results</h2>
+        </div></div></section>
     )
 }
 

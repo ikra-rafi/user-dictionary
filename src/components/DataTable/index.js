@@ -8,10 +8,10 @@ const DataTable = () => {
 
     return (
 
-        <div className="datatable mt-5">
+        <div className="table is-striped is-hoverable is-fullwidth">
             <table
                 id="table"
-                className="table table-striped table-hover table-condensed"
+                
             >
                 <thead>
                     <tr>

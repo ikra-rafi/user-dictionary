@@ -6,15 +6,15 @@ const SearchName = () => {
     const context = useContext(DataAreaContext);
 
     return (
-        <div className="searchbox">
-            <form className="form-inline">
+        <div className="field">
+            <label className="label">Enter Employee Name Here:</label>
+            <div className= "control">
                 <input
-                    className="form-control col-lg-4 searchbox"
-                    type="search"
-                    placeholder="Search"
-                    aria-label="Search"
+                    className="input"
+                    type="text"
+                    placeholder="Ex. Jose Lawrence "
                     onChange={e => context.handleSearchChange(e)} />
-            </form>
+            </div>
         </div>
     );
 }
