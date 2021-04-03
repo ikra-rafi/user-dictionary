@@ -103,7 +103,7 @@ const DataArea = () => {
             value={{ developerState, handleSearchChange, handleSort }}
         >
             <Nav />
-            <div className="data-area">
+            <div className="data">
                 {developerState.filteredUsers.length > 0 ? <DataTable /> : <div></div>}
             </div>
         </DataAreaContext.Provider>

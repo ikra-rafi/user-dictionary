@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import "./style.css"
+
 import DataAreaContext from "../../utils/DataAreaContext"
 
 const DataBody = () => {
@@ -24,21 +24,21 @@ const DataBody = () => {
                                 <img
                                     src={picture.medium}
                                     alt={"profile image for " + name.first + " " + name.last}
-                                    className="img-responsive"
+                                    className="image is-100x100"
                                 />
                             </td>
-                            <td data-th="Name" className="name-cell align-middle">
+                            <td data-th="Name" className="is-capitalized has-text-centered">
                                 {name.first} {name.last}
                             </td>
-                            <td data-th="Phone" className="align-middle">
+                            <td data-th="Phone" className="has-text-centered">
                                 {phone}
                             </td>
-                            <td data-th="Email" className="align-middle">
-                                <a href={"mailto:" + email} target="__blank">
+                            <td data-th="Email" className="has-text-centered">
+                                <a href={"mailto:" + email} target="__blank" className="has-text-primary">
                                     {email}
                                 </a>
                             </td>
-                            <td data-th="DOB" className="align-middle">
+                            <td data-th="DOB" className="has-text-centered">
                                 {formatDate(dob.date)}
                             </td>
                         </tr>

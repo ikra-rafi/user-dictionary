@@ -2,7 +2,7 @@ import React from 'react';
 import SearchName from "../SearchName";
 
 
-import "./style.css";
+
 
 function Nav() {
     return (
