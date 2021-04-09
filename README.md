@@ -1,4 +1,4 @@
-#  Employee Directory
+#  Employee Directory 
 ## Description
 This app will let a user sort through each category by clicking on one category at a time. It also has a filter where you can search by name.
 ## Links
