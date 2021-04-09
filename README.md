@@ -43,7 +43,7 @@ One of the most important skills to master as a web developer is version control
 
 2. Your commit history allows you to revert your code base in the event that you need to return to a previous state
 
-Follow these guidelines for committing:
+Follow these guidelines for committing: 
 
 * Make single purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits
 
